@@ -9,7 +9,6 @@ image:
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1.0.0"
-  containerPort: 3000
 imagePullSecrets: []
 
 nameOverride: ""
@@ -43,7 +42,7 @@ service:
 
 ingress:
   enabled: true
-  annotations: 
+  annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
 
