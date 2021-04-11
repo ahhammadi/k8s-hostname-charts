@@ -51,7 +51,7 @@ ingress:
 
 
   hosts:
-    - host: k8s-hostname.mohammedragab.com
+    - host: k8s-hostname.ahmed-hammadi.com
       paths:
       - path: /
 
