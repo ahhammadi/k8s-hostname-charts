@@ -51,8 +51,9 @@ ingress:
 
 
   hosts:
-    - host: k8s-hostname.mohammedragab.com
-      paths: ["/"]
+    - host: k8s-app.mohammedragab.com
+      paths:
+      - path: /
 
 
 
